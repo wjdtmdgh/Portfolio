@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossorigin="crossorigin">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
+            rel="stylesheet">
+        <title>Document</title>
+        <style>
+            .img-placement {
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center center;
+            }
+        </style>
+    </head>
+    <body class="position-absolute">
+        <!--top버튼 고정용-->
+        <header>
+            <nav class="navbar navbar-light bg-light position-fixed w-100 ps-5 pe-5"
+             style="z-index: 99;"><!--z인덱스는 3차원이라생각,position 고정-->
+                <a class="navbar-brand" href="#">정승호</a>
+                    <ul class="nav d-flex justify-content-end"><!--flex,오른쪽으로 옮기기-->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#main-part">Main</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about-part">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Skill</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Stack</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Closing</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section id="main-part"><!--연관된 구역 묶음-->
+                <div
+                    id="carouselExampleIndicators"
+                    class="carousel slide"
+                    data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button
+                            type="button"
+                            data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide-to="0"
+                            class="active"
+                            aria-current="true"
+                            aria-label="Slide 1"></button>
+                        <button
+                            type="button"
+                            data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button
+                            type="button"
+                            data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/slide1.jpg" class="d-block w-100 img-placement" alt="...">
+                            <div class="carousel-caption d-none d-md-block h-50">
+                                <h1 style="font-family: 'Open Sans', sans-serif;">Front-end 개발자 정승호</h1>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/slide2.jpg" class="d-block w-100 img-placement" alt="...">
+                            <div class="carousel-caption d-none d-md-block h-50">
+                                <h1 style="font-family: 'Open Sans', sans-serif;">자료구조 대장</h1>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/slide3.jpg" class="d-block w-100 img-placement" alt="...">
+                            <div class="carousel-caption d-none d-md-block h-50">
+                                <h1 style="font-family: 'Open Sans', sans-serif;">저를 뽑아주세요!</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <button
+                        class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                        class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </section>
+            <section id="about-part"><!--연관된 구역 묶음-->
+                <div
+                    id="carouselExampleIndicators"
+                    class="carousel slide"
+                    data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button
+                            type="button"
+                            data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide-to="0"
+                            class="active"
+                            aria-current="true"
+                            aria-label="Slide 1"></button>
+                        <button
+                            type="button"
+                            data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button
+                            type="button"
+                            data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/slide1.jpg" class="d-block w-100 img-placement" alt="...">
+                            <div class="carousel-caption d-none d-md-block h-50">
+                                <h1 style="font-family: 'Open Sans', sans-serif;">Front-end 개발자 정승호</h1>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/slide2.jpg" class="d-block w-100 img-placement" alt="...">
+                            <div class="carousel-caption d-none d-md-block h-50">
+                                <h1 style="font-family: 'Open Sans', sans-serif;">자료구조 대장</h1>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/slide3.jpg" class="d-block w-100 img-placement" alt="...">
+                            <div class="carousel-caption d-none d-md-block h-50">
+                                <h1 style="font-family: 'Open Sans', sans-serif;">저를 뽑아주세요!</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <button
+                        class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                        class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </section>
+        </main>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+    </body>
+</html>
